@@ -7,6 +7,16 @@ myArgs.map(String);
 
 var arrOut = [];
 
+for(var i = 0; i < myArgs.length; i++){
+    var str = "";
+    for(var j = 0; j < myArgs[i].length; j++){
+        str += pairs[myArgs[i][j]];
+    }
+    arrOut.push(str);
+}
+
+console.log(arrOut.toString());
+
 
 
 
