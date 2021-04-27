@@ -1,1 +1,1 @@
-# Last-one
+# Repository for KG email specifications
